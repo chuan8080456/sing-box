@@ -130,6 +130,13 @@ function jmanuser() {
   };
 })();}()
 </script></body>`);
+    console.log("[油猴脚本] anls.js 注入成功!");
+    }
+    $done({body});
+} catch (err) {
+    console.log("[油猴脚本] anls.js 执行失败!\n" + err);
+    $done({});
+}
 	 
   
 
